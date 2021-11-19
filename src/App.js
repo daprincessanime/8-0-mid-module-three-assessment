@@ -1,6 +1,10 @@
 import { Component } from "react";
 import "./App.css";
+import FinalPurchase from "./component/FinalPurchase";
 import GarageCard from "./component/garageCard";
+import ShopperCard from "./component/ShopperCard";
+
+
 
 class App extends Component {
   constructor(){
@@ -23,31 +27,14 @@ class App extends Component {
 
 }
 render (){
-  return 
+  return (
   <div>
       <h1>My Garage Sale</h1>;
-      
-      <div className="shopping-container">
-          <ul>
-            <li ></li>
-          </ul>
-          <div>Subtotal: ${}</div>
-          <div>Tax: $ </div>
-          <div>Total Update:${}</div>
-      </div>
-      <div className="checkout=container">
-        <label>
-          <div>
-            <label  >Last Name: </label>
-            <label>First Name: </label>
-            <label>Email: </label>
-            <label>Credit Card:  </label>
-            <label>Zip Code: </label>
-            <button onClick>Buy Now</button>
-          </div>
-        </label>
-      </div>
+      <GarageCard/>
+      <ShopperCard/>
+      <FinalPurchase/>
   </div>
+  )
 };
 }
 
