@@ -10,11 +10,13 @@ class FinalPurchase extends Component{
         return(
         <div className="checkout=container">
          <div>
-            <label  >Last Name: </label>
-            <label>First Name: </label>
-            <label>Email: </label>
-            <label>Credit Card:  </label>
-            <label>Zip Code: </label>
+            <form>
+                <label >Last Name: </label>
+                <label>First Name: </label>
+                <label>Email: </label>
+                <label>Credit Card:  </label>
+                <label>Zip Code: </label>
+            </form>  
             <button onClick>Buy Now</button>
           </div>
    

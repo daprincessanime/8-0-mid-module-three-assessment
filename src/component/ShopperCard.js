@@ -14,24 +14,11 @@ class ShopperCard extends Component{
             <li ></li>
           </ul>
           <div>Subtotal: ${}</div>
-          <div>Tax: $ </div>
+          <div>Tax:  </div>
           <div>Total Update:${}</div>
       </div>
         )
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 export default ShopperCard
